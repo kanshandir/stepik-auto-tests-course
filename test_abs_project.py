@@ -15,10 +15,10 @@ class TestAbs(unittest.TestCase):
         input2.send_keys("Ivanov")
         input3 = browser.find_element_by_xpath("//input[@placeholder='Input your email']")
         input3.send_keys("ivan07@list.ru")
-        input3 = browser.find_element_by_xpath("//input[@placeholder='Input your phone:']")
-        input3.send_keys("11222344455")
-        input3 = browser.find_element_by_xpath("//input[@placeholder='Input your address:']")
-        input3.send_keys("Moscow")
+        input4 = browser.find_element_by_xpath("//input[@placeholder='Input your phone:']")
+        input4.send_keys("11222344455")
+        input5 = browser.find_element_by_xpath("//input[@placeholder='Input your address:']")
+        input5.send_keys("Moscow")
 
         # Отправляем заполненную форму
         button = browser.find_element_by_css_selector("button.btn")
