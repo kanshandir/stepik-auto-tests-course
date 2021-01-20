@@ -3,7 +3,7 @@ from selenium import webdriver
 link = "http://selenium1py.pythonanywhere.com/"
 
 
-class TestMainPage1():
+class TestMainPage():
     @classmethod
     def setup_class(self):
         print("\nstart browser for test suite..")
