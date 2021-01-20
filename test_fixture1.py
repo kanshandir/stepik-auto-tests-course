@@ -4,7 +4,6 @@ link = "http://selenium1py.pythonanywhere.com/"
 
 
 class TestMainPage1():
-
     @classmethod
     def setup_class(self):
         print("\nstart browser for test suite..")
